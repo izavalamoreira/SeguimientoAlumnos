@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Seguimiento de Alumnos</string>
+    <string name="action_settings">Settings</string>
+    <string name="lblAnio">Seleccione el año</string>
+    <string name="lblCuatrimestre">Seleccione el cuatrimestre</string>
+    <string name="lblCurso">Seleccione el curso</string>
+    <string name="lblMisCursos">Mis Cursos</string>
+    <string name="btnBuscar">Buscar</string>
+    <string name="btnRegistrarCurso">Registrar curso</string>
+    <string name="btnGoToAltaCurso">Agregar nuevo curso</string>
+    <string name="btnGoToAltaGrupo">Agregar nuevo Grupo</string>
+    <string name="btnGoToABMCursos">Administrador de Cursos</string>
+    <string name="btnGoToBuscarCursos">Modificar Cursos</string>
+    <string name="btnReiniciarBD">Reiniciar Base de Datos</string>
+    <string name="btnExportarASD">Exportar Archivo a SD</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="image_description">ORT</string>
+    <string name="btnGoToMisCursos">Mis Cursos</string>
+    <string name="TP1">Trabajo practico 1</string>
+    <string name="TP2">Trabajo practico 2</string>
+    <string name="TP3">Trabajo practico 3</string>
+    <string name="TP4">Trabajo practico 4</string>
+    <string name="TP5">Trabajo practico 5</string>
+    <string name="TP6">Trabajo practico 6</string>
+    <string name="TP7">Trabajo practico 7</string>
+    
+    
+    
+
+    <string-array name="anios">
+        <item>1° Año</item>
+        <item>2° Año</item>
+        <item>3° Año</item>
+    </string-array>
+    <string-array name="cuatrimestres">
+        <item>1° Cuatrimestre</item>
+        <item>2° Cuatrimestre</item>
+    </string-array>
+    <string-array name="cursos">
+        <item>Curso A</item>
+        <item>Curso B</item>
+        <item>Curso C</item>
+        <item>Curso D</item>
+        <item>Curso E</item>
+        <item>Curso F</item>
+        <item>Curso G</item>
+    </string-array>
+    <string-array name="TPs">
+        <item>Sin Calificacion</item>
+        <item>Aprobado</item>
+        <item>Incompleto</item>
+        <item>Desaprobado</item>
+        <item>Ausente</item>
+        
+
+    </string-array>
+
+    <string name="title_activity_grupos">GruposActivity</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:onClick="goToGuardarCambios"
+    android:orientation="vertical"
+    tools:context="main.controllers.ListarMateriasActivity" >
+
+    <ListView
+        android:id="@+id/ListaMaterias"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+</LinearLayout>

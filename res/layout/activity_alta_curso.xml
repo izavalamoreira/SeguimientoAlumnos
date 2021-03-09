@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dip"
+        android:text="@string/lblAnio" />
+
+    <Spinner
+        android:id="@+id/spAnios"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="10dip"
+        android:layout_weight="1"
+        android:entries="@array/anios" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dip"
+        android:text="@string/lblCuatrimestre" />
+
+    <Spinner
+        android:id="@+id/spCuatrimestres"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="10dip"
+        android:layout_weight="1"
+        android:entries="@array/cuatrimestres" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dip"
+        android:text="@string/lblCurso" />
+
+    <Spinner
+        android:id="@+id/spCursos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="10dip"
+        android:layout_weight="1"
+        android:entries="@array/cursos" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/btnRegistrarCurso"
+        android:onClick="altaCurso" />
+
+</LinearLayout>

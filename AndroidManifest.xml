@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="main.controllers.HomeMenuActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="main.controllers.BuscarCursosActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="main.controllers.HomeMenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="main.controllers.HomeMenuActivity" />
+        </activity>
+        <activity
+            android:name="main.controllers.ListarGruposActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="main.controllers.BuscarCursosActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="main.controllers.BuscarCursosActivity" />
+        </activity>
+        <activity
+            android:name="main.controllers.ABMCursoActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="main.controllers.HomeMenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="main.controllers.HomeMenuActivity" />
+        </activity>
+        <activity
+            android:name="main.controllers.AltaCursoActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="main.controllers.ABMCursoActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="main.controllers.ABMCursoActivity" />
+        </activity>
+        <activity
+            android:name="main.controllers.ListarTrabajosActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="main.controllers.ListarGruposActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="main.controllers.ListarGruposActivity" />
+        </activity>
+        <activity
+            android:name="main.controllers.ListarMateriasActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="main.controllers.ListarCursosActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="main.controllers.ListarCursosActivity" />
+        </activity>
+    </application>
+
+</manifest>
